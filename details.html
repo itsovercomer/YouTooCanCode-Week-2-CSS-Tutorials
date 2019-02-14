@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduction to CSS</title>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<nav class="main_nav">
+				<div class="logo">
+					<a href="index.html" class="a_inherit">my website</a>
+				</div>
+
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+				<div class="clearfix"></div>
+			</nav>
+		</div>
+	</header>
+
+	
+	<div class="container blog_details">
+
+		<div class="col_70">
+
+			<div class="divider15"></div>
+			<img src="images/banner.jpg">
+
+			<div class="author">
+				By: John Doe, Feb 9, 2019
+			</div>
+
+			<div class="box">
+				<h1 class="big_heading"><a href="#" class="a_inherit">First Article</a></h1>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<div class="article_tag_wrap">
+					<div class="article_tag">
+						#article
+					</div>
+					<div class="article_tag">
+						#myfirst
+					</div>
+				</div>
+
+			</div>
+
+			<div class="box">
+				<h3>Post a comment</h3>
+				<form class="global_form">
+					<div class="row">
+						<div class="col_50">
+							<label>Name</label>
+							<input type="text" class="input_class" name="name" placeholder="Enter your name">
+						</div>
+						<div class="col_50">
+							<label>Email</label>
+							<input type="email" class="input_class" name="email" placeholder="Enter your email">
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div>
+						<label>Comment</label>
+						<textarea rows="7" name="comment" class="input_class" placeholder="Enter your comment"></textarea>
+					</div>
+					<div>
+						<input type="submit" class="yellow_button" name="submit" value="Post Comment">
+					</div>
+				</form>
+			</div>
+			
+		</div>
+
+		<div class="col_30">
+			<div class="box">
+				<h3 class="small_heading">Popular Posts</h3>
+				<ul class="popular_posts">
+					<li>
+						<a href="#">
+							<div class="col_30">
+								<img src="images/image_placeholder.png">
+							</div>
+							<div class="col_70">
+								First Popular Post
+							</div>
+							<div class="clearfix"></div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="col_30">
+								<img src="images/image_placeholder.png">
+							</div>
+							<div class="col_70">
+								Second Popular Post
+							</div>
+							<div class="clearfix"></div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="col_30">
+								<img src="images/image_placeholder.png">
+							</div>
+							<div class="col_70">
+								Third Popular Post
+							</div>
+							<div class="clearfix"></div>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+		
+		<div class="clearfix"></div>
+	</div>
+
+	<div class="footer">
+		My first blog &copy; 2019, all rights reserved
+	</div>
+
+</body>
+</html>
